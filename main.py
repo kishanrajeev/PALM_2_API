@@ -6,17 +6,10 @@ import google.generativeai as palm
 
 palm.configure(api_key=k2key.API_KEY)
 
-# Create a new conversation
-response = input("Star a new conversation: ")
-
-# Last contains the model's response:
+response = palm.chat(messages=(input('Start a new conversation: ')), temperature = 1)
 response.last
-
 print(response.last)
 
-
-# Add to the existing conversation by sending a reply
 response = response.reply(input("Respond to Palm: "))
-# See the model's latest response in the `last` field:
 response.last
 print(response.last)
