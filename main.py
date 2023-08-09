@@ -11,7 +11,7 @@ def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def new_palm():
-    print("Enter 'n' to reset the conversation. Limit 90 prompts per minute.")
+    print("Enter 'n' to reset the conversation and 'exit' to exit Palm. Limit 90 prompts per minute.")
     Og_response = input("Start a new conversation: ")
     if Og_response == 'n':
         clear_console()
