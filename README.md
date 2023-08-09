@@ -28,5 +28,4 @@ To run the script, simply execute the script in a Python environment. The script
 
 ## Acknowledgments
 
-- This project was inspired by the tutorial on FreeCodeCamp.
 - The Google Generative AI Python Client was used to interact with the PaLM API.
