@@ -1,5 +1,5 @@
 #importing other python files
-import k2key #Contails API key
+import k2key #Contails API key - To add your own make a python file names k2key.py in the same directory and ass your key like this: API_KEY = 'Example_key'
 
 #Importing libraries
 import google.generativeai as palm
