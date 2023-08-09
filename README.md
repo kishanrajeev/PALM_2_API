@@ -29,3 +29,11 @@ To run the script, simply execute the script in a Python environment. The script
 ## Acknowledgments
 
 - The Google Generative AI Python Client was used to interact with the PaLM API.
+
+## Contact
+
+* [Kishan Rajeev](https://kishan.jeevsol.com/)
+
+## License
+
+Licensed under the MIT License.
