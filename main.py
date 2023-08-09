@@ -17,7 +17,7 @@ def new_palm():
         clear_console()
         new_palm()
     elif Og_response == 'exit':
-        quit()
+        exit()
     else:
         palm.configure(api_key=k2key.API_KEY)
 
@@ -29,7 +29,7 @@ def new_palm():
                 clear_console()
                 new_palm()
             elif Og2_response == 'exit':
-                quit()
+                exit()
             else:
                 response = response.reply(Og2_response)
                 print(response.last)
